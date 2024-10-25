@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "2a2587bc-21f6-4ecf-8f9a-29569296787c",
+		"name": "Microservicio Financiero",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35956105"
+	},
+	"item": [
+		{
+			"name": "Pago",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idEstudiante\": 5,\r\n  \"monto\": 172.75,\r\n  \"estado\": \"Pagado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/pago",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"pago"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
